@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+@font-face {
+  font-family: "Avenir Light";
+  src: url("./fonts/Avenir\ Light/AvenirLight.ttf");
+}
+
+.App {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Navigation */
+
+.spacer {
+  flex: 1;
+}
+
+.box {
+  height: 15px;
+  width: 15px;
+  margin: 12px 3px;
+}
+
+.blue {
+  background-color: rgb(0, 80, 254);
+  border: 1px solid rgb(0, 80, 254);
+}
+
+#name {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.job-title {
+  font-family: "Avenir Light";
+  font-size: 17px;
+}
+
+.Navigation {
+  padding: 40px;
+  height: 70px;
+  display: flex;
+  align-items: flex-end;
+  overflow-y: hidden;
+  box-shadow: 5px 10px 20px #888888;
+}
+
+.Navigation a {
+  color: rgba(30, 31, 35, 255);
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.Navigation a:active {
+  color: rgb(0, 80, 254);
+}
+
+.Navigation a:hover {
+  color: rgb(173, 170, 170);
+}
+
+.navbar {
+  font-family: "Avenir Light";
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+/* About */
+
+.About {
+  width: auto;
+  height: 950px;
+}
+
+.About h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.About #title {
+  font-family: "Avenir Light";
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.About img {
+  width: 205px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile-card {
+  flex: 1;
+  position: absolute;
+  z-index: 10;
+  width: 375px;
+  height: 525px;
+  margin-top: 100px;
+  margin-left: 300px;
+  background-color: rgb(244, 235, 230);
+  box-shadow: 5px 10px 18px #888888;
+}
+
+#cardName {
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+#cardName p {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.About hr {
+  border: 1px solid rgb(0, 80, 254);
+  width: 40px;
+}
+
+.profile-contact {
+  height: 50px;
+  background-color: white;
+  box-shadow: 5px 10px 20px #888888;
+}
+
+.rectangle {
+  z-index: -1;
+  position: absolute;
+  width: 480px;
+  height: 950px;
+}
+
+.gainsboro {
+  background-color: rgb(230, 217, 205);
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.description {
+  flex: 1;
+  position: absolute;
+  margin-left: 730px;
+  margin-top: 200px;
+  width: 400px;
+}
+
+.description-txt {
+  font-family: "Avenir Light";
+  font-size: 18px;
+  padding: 0;
+  text-align: left;
+}
+
+.About a {
+  text-decoration: none !important;
+  color: black;
+  margin: 0 15px;
+}
+
+/* Experience */
+
+.Experience {
+  z-index: 11;
+  width: auto;
+  height: max-content;
+  padding-bottom: 100px;
+  background-color: rgb(230, 217, 205);
+  box-shadow: 5px 10px 60px 10px #888888;
+}
+
+.Experience h1,
+.Work h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  padding: 40px;
+}
+
+#job1,
+#job2,
+#job3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 40px auto;
+  width: 800px;
+  height: max-content;
+  background-color: white;
+  box-shadow: 5px 10px 20px #888888;
+}
+
+.job-info {
+  font-size: 20px;
+  font-family: "Poppins";
+}
+
+.job-description {
+  font-family: "Avenir Light";
+  font-size: 16px;
+  width: 400px;
+  text-align: left;
+}
+
+.company {
+  color: rgb(0, 80, 254);
+  font-size: 17px;
+}
+
+.position,
+.dates {
+  font-size: 14px;
+}
+
+.Experience hr {
+  border: 1px solid black;
+  width: 40px;
+}
+
+/* Work */
+.Work {
+  width: auto;
+  height: max-content;
+  padding-bottom: 100px;
+  background-color: white;
+}
+
+.Work .title {
+  font-family: "Poppins";
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.Work .MuiStepIcon-root.MuiStepIcon-active,
+.Work .MuiStepIcon-root.MuiStepIcon-completed {
+  color: rgb(0, 80, 254);
+}
+
+.Work .MuiButtonBase-root:hover {
+  background-color: rgb(16, 78, 212);
+  color: white;
+}
+
+/* Contact */
+
+.Contact {
+  position: absolute;
+  font-family: "Poppins";
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: rgb(244, 235, 230);
+  box-shadow: 5px 10px 60px #888888;
+}
+
+.Contact a {
+  cursor: pointer;
+  color: black;
+  margin: 0 20px;
+  font-size: 13px;
+  flex: auto;
+  width: fit-content;
+}
+
+.contact-info {
+  flex: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#contact-msg {
+  font-size: 15px;
+  flex: auto;
+  margin: 30px 20px;
+}
+
+.vl {
+  border-left: 2px solid rgb(0, 80, 254);
+  height: 50px;
+  flex: auto;
+}
